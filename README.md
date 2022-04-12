@@ -1,6 +1,6 @@
 # Demicon Random Users Viewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can see preview of the app [https://demicon-userviewer.vercel.app/](here) 
 
 ## How to run the app
 
