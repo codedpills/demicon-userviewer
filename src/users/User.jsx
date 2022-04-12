@@ -9,7 +9,9 @@ function User({ name, email, gender, location }) {
       <td>{email}</td>
       <td>{gender}</td>
       <td>{location.city}</td>
-      <td><Link to={`users/${email}`}>see full details</Link></td>
+      <td>
+        <Link to={`users/${email}`}>see full details</Link>
+      </td>
     </tr>
   );
 }

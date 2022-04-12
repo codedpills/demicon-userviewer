@@ -7,7 +7,7 @@ function App() {
   const { loading, users, fetchUsers } = useUsers();
 
   return (
-    <div className="App">
+    <div className="app">
       <h2>D3m1c0n Random User Viewer</h2>
       <table>
         <thead>
