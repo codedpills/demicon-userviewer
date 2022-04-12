@@ -1,9 +1,6 @@
 import User from "./User";
-import { useUsers } from "./useUsers";
 
-function Users() {
-  const { users, loading } = useUsers();
-
+function Users({ users, loading }) {
   if (loading) {
     return <div>Loading...</div>;
   }
